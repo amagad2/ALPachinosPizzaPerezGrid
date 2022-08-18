@@ -1,0 +1,74 @@
+/*archivo CSS para la pagina del proyecto final*/
+header div h1 {
+	display: inline;
+}
+
+.h1header{
+font-size: 50px;
+}
+
+li {
+	display: inline;
+	list-style: none;
+	color: rgb(240, 246, 243);
+	font-size: 30px;
+	padding: 10px;
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.inline {
+	display: inline;
+	text-align: center;
+}
+
+.textAlignCenter {
+	text-align: center;
+}
+
+.textAlignLeft{
+	text-align: left;
+}
+
+.height {
+	height: 20px;
+}
+
+.width {
+	widows: 10px;
+}
+
+.header {
+	height: 220px;
+	width: 100%;
+}
+
+.bgColor {
+	background-color: rgb(241, 141, 10);
+}
+
+.textDecorationnav {
+	text-decoration-color: rgb(239, 245, 240);
+}
+
+.bgColorNav {
+	background-color: rgb(184, 220, 85);
+}
+
+.align {
+	align-items: center;
+}
+
+.textSizeTitle {
+font-size: 40px;
+}
+
+.textSize30{
+	font-size: 20px;
+}
+
+/*GRID COMMANDS*/
+
