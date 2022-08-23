@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../CSS/estilo.css">
 	<title>AL Pachino's Pizza - Menu</title>
 </head>
-
 <body>
-	<header class="header bgColor">
-		<div>
-			<img src="../images/logo.png" alt="logo" height="150px" width="170px">
-			<h1 class="h1header">AL Pachino's Pizza
+	<header>
+		<div class="header">
+			<img class="logo absolute"	src="../images/logo.png" alt="Pizzalogo" height="150px" width="170px">
+			<h1 class="h1FontSize">AL Pachino's Pizza
 			</h1>
-			<hr>
 		</div>
-		<nav class="textAlignCenter bgColorNav">
+		<nav class="nav bgColorNav">
 			<ul>
-				<li><a href="../index.html">Inicio</li>
-				<li><a href="pages/menu.html">Menu</li>
-				<li><a href="contacto.html">Contacto</li>
-				<li><a href="quienessomos.html">Quienes Somos</li>
-				<li><a href="carrito.html">Carrito</li>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="../pages/contacto.html">Contacto</a></li>
+				<li><a href="../pages/quienessomos.html">Quienes Somos</a></li>
+				<li><a href="../pages/carrito.html">Carrito</a></li>
 			</ul>
 		</nav>
 	</header>
-	<main class="bgColor">
-		<div class="inline">
+	<main class="bgColor gridMain">
+		<div class="menu bgColorMenu">
 			<h1>MENU</h1>
 		</div>
-		<div class="inline"><!--Descripcion de las pizzas al final del proyecto-->
-							<!--No pude alinear las imagenes y los textos como en el wireframe-->
-			<h2 class="textAlignLeft">Margarita</h3><img src="../images/margarita.jpg" width="350" height="300"><p class="textAlignLeft">Descripcion de la pizza Margarita</p>
-			<h2 class="textAlignLeft">4 Quesos</h3><img src="../images/4quesos.jpg" width="350" height="300"><p class="textAlignLeft">Descripcion de la pizza 4 Quesos</p>
-			<h2 class="textAlignLeft">Carne</h3><img src="../images/carne.jpg" width="350" height="300"><p class="textAlignLeft">Descripcion de la pizza Carne</p>
-			<h2 class="textAlignLeft">Pepperoni</h3><img src="../images/pepperoni.png" width="350" height="300"><p class="textAlignLeft">Descripcion de la pizza Pepperoni</p>
+		<div class="margarita"><!--Descripcion de las pizzas al final del proyecto-->
+			<h2>Margarita</h3><img class="border" src="../images/margarita.jpg" width="500" height="400"><p>Descripcion de la pizza Margarita</p>
 		</div>
-	</main><br><br>
-	<hr>
-	<footer class="bgColor">
-		<div>
-			<img src="../images/logo.png" alt=""><br><br>
+		<div class="quesos">
+			<h2>4 Quesos</h3><img class="border" src="../images/4quesos.jpg" width="500" height="400"><p>Descripcion de la pizza 4 Quesos</p>
 		</div>
-		<div>
-			<img src="../images/instagram.jpg" height="50" width="50"><br>
-			<p><a href="http://www.instagram.com" target="_blank">Instagram</a></p>
-			<div>
-				<img src="../images/facebook.png" height="50" width="50"><br>
-				<p><a href="http://www.facebook.com" target="_blank">Facebook</a></p>
+		<div class="carne">
+			<h2>Carne</h3><img class="border" src="../images/carne.jpg" width="500" height="400"><p>Descripcion de la pizza Carne</p>
+		</div>
+		<div class="pepperoni">	
+			<h2>Pepperoni</h3><img class="border" src="../images/pepperoni.png" width="500" height="400"><p>Descripcion de la pizza Pepperoni</p>
+		</div>
+	</main>
+	<footer class="bgColor marginTop">
+		<div class="logoFooterIzq absolute">
+			<img class="footerLogo" src="../images/logo.png" width="120px" height="100px">
+		</div>
+		<div class="footerIcons">
+			<div class="alignCenter">
+				<img src="../images/instagram.jpg" alt="InstagramLogo" height="50" width="50">
+				<h2><a href="http://www.instagram.com" target="_blank">Instagram</a>
+				</h2>
 			</div>
-			<div>
-				<img src="../images/youtube.png" height="50" width="50"><br>
-				<p><a href="http://www.youtube.com" target="_blank">Youtube</a></p>
+			<div class="alignCenter">
+				<img src="../images/facebook.png" alt="FacebookLogo" height="50" width="50">
+				<h2><a href="http://www.facebook.com" target="_blank">Facebook</a>
+				</h2>
 			</div>
+			<div class="alignCenter">
+				<img src="../images/youtube.png" alt="YolutubeLogo" height="50" width="50">
+				<h2><a href="http://www.youtube.com" target="_blank">Youtube</a>
+				</h2>
+			</div>
+		</div>
 	</footer>
 </body>
-
 </html>
