@@ -1,4 +1,9 @@
 /*archivo CSS para la pagina del proyecto final*/
+
+.animate_animated.animate_heartBeat{
+	--animate-duration: 2s;
+}
+
 li {
 	display: inline;
 	list-style: none;
@@ -249,4 +254,5 @@ width: 100%;
 		align-items: center;
 		font-size: 20px;
 		row-gap: 3px;
+
 }
