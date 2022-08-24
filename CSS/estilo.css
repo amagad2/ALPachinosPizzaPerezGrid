@@ -24,6 +24,7 @@ a {
 
 .bgColor {
 	background-color: rgb(241, 141, 10);
+	border: solid 2px;
 }
 
 .textDecorationnav {
@@ -32,14 +33,23 @@ a {
 
 .bgColorNav {
 	background-color: rgb(184, 220, 85);
+	border: solid 2px;
 }
 
 .bgColorMenu{
 	background-color: #06825f;
+	border: solid 2px;
 }
 
 .h1FontSize{
 	font-size: 60px;
+}
+
+header h1{
+	color: azure;
+	-webkit-text-stroke: 1.5px;
+	-webkit-text-stroke-color: black;
+	-webkit-text-fill-color: #e9f50870;
 }
 
 /*GRID COMMANDS & FLEX*/
@@ -255,5 +265,5 @@ width: 100%;
 		font-size: 20px;
 		row-gap: 3px;
 	}
-	
+
 	}
